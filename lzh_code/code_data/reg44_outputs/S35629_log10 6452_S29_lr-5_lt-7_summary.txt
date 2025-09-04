@@ -1,0 +1,40 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                      -0.519
+Model:                            OLS   Adj. R-squared:                 -1.056
+Method:                 Least Squares   F-statistic:                       nan
+Date:                Thu, 28 Aug 2025   Prob (F-statistic):                nan
+Time:                        18:34:35   Log-Likelihood:                 3.0093
+No. Observations:                  47   AIC:                             19.98
+Df Residuals:                      34   BIC:                             44.03
+Df Model:                          12                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+x1             0.1806      0.148      1.221      0.222      -0.109       0.470
+x2             0.2919      0.137      2.133      0.033       0.024       0.560
+x3             0.4549      0.152      2.991      0.003       0.157       0.753
+x4             0.4497      0.161      2.800      0.005       0.135       0.765
+x5             0.4958      0.230      2.153      0.031       0.044       0.947
+x6             0.4210      0.192      2.193      0.028       0.045       0.797
+x7             0.3325      0.139      2.387      0.017       0.059       0.606
+x8             0.3326      0.131      2.532      0.011       0.075       0.590
+x9             0.2575      0.247      1.044      0.297      -0.226       0.741
+x10            0.2237      0.236      0.947      0.344      -0.239       0.687
+x11            0.3523      0.173      2.033      0.042       0.013       0.692
+x12            0.0006      0.001      1.000      0.317      -0.001       0.002
+x13            0.0483      0.010      4.648      0.000       0.028       0.069
+==============================================================================
+Omnibus:                        1.598   Durbin-Watson:                   1.063
+Prob(Omnibus):                  0.450   Jarque-Bera (JB):                1.515
+Skew:                           0.411   Prob(JB):                        0.469
+Kurtosis:                       2.689   Cond. No.                     1.37e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 3 lags and without small sample correction
+[2] The condition number is large, 1.37e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Ljung-Box p (lag 12) = 0.0038
