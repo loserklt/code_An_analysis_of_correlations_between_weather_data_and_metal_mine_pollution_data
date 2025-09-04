@@ -1,0 +1,6 @@
+Scale,Metric,Before,After,Improvement (%)
+log10,RMSE,1.51,0.53,64.85
+log10,MAE,1.44,0.35,75.54
+level,RMSE,828.5,283.66,65.76
+level,MAE,779.95,70.02,91.02
+level,MAPE (%),3998.13,53.6,98.66
